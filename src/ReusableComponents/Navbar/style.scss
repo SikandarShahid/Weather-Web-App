@@ -1,0 +1,17 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  &_heading {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  &_Link{
+    text-decoration: none;
+    color: #000;
+    
+  }
+}

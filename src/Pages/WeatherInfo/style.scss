@@ -1,0 +1,14 @@
+.weatherInfo {
+  min-height: calc(100vh - 90px);
+  width: 100%;
+  //   background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_Link {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+  }
+}

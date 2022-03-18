@@ -1,0 +1,15 @@
+.citiesWeather {
+  min-height: calc(100vh - 90px);
+  width: 100%;
+  //   background-color: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_Input {
+    width: 20rem;
+    margin: 3rem 0;
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+  }
+}
